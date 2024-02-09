@@ -78,7 +78,7 @@ body {
 
 /* M   A   I   N */
 
-/*  1  */
+/*  MAIN-11111111111111111111111111111111  */
 .main {
     display: flex;
     flex-direction: column;
@@ -142,19 +142,20 @@ body {
     padding: 10px 24px 10px 24px;
     cursor: pointer;
 }
-/***************************************/
+/*  MAIN-22222222222222222222222222222222222 */
 .main-two {
     background-color: #F7F9F9;
     width: 1366px;
     height: 1082px;
 }
+/*  MAIN-3333333333333333333333333333333333333 */
 
 .main-three {
     background-color: #FFFAF1;
     width: 1366px;
     height: 734px;
 }
-
+/*  MAIN-444444444444444444444444444444444 */
 .main-four {
     background-color: #FFFFFF;
     width: 1366px;
