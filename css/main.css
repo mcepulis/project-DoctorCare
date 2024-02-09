@@ -6,11 +6,18 @@ vertical-align: top;
 box-sizing: border-box;
 }
 body {
-background-color: rgb(213, 213, 211);
-position: relative;
-min-height: 100vh;
+    background-color: rgb(213, 213, 211);
+    width: 100%;
 }
 
+.container {
+    background-color: rgb(213, 213, 211);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 /* H E A D E R */
 
 .header {
@@ -22,7 +29,7 @@ min-height: 100vh;
     display: flex;
     width: 1366px;
     height: 72px;
-    position: fixed;
+    /* position: fixed; -- REIKALINGAS VELIAU */
     background-color: #00856F;
     justify-content:space-around;
     align-items: center;
@@ -69,7 +76,90 @@ min-height: 100vh;
     cursor: pointer;
 }
 
+/* M   A   I   N */
 
+/*  1  */
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-one-header {
+    display: flex;
+    width: 1366px;
+    height: 72px;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.main-one {
+    background-color: #DCE9E2;
+    width: 1366px;
+    height: 678px;
+}
+
+.main-one-header > h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.main-one-header span {
+    font-weight: 600;
+    color: #00856F;
+}
+
+.main-nav {
+    display: flex;
+    gap: 8px;
+}
+
+.main-nav > a {
+    text-decoration: none;
+    color: #00856F;   
+    opacity: 0.5; 
+    padding: 25px 14px 25px 14px;
+}
+
+.main-nav > a:hover {
+    opacity: 1;
+    border-bottom: 3px solid #00856F;
+    padding: 25px 14px;
+}
+
+.main-button {
+    background-color: #DCE9E2;
+    color: #00856F;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 2px solid #00856F;
+    border-radius: 40px;
+    padding: 10px 24px 10px 24px;
+    cursor: pointer;
+}
+/***************************************/
+.main-two {
+    background-color: #F7F9F9;
+    width: 1366px;
+    height: 1082px;
+}
+
+.main-three {
+    background-color: #FFFAF1;
+    width: 1366px;
+    height: 734px;
+}
+
+.main-four {
+    background-color: #FFFFFF;
+    width: 1366px;
+    height: 699px;
+}
 
 
 /* F O O T E R */
