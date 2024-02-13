@@ -142,6 +142,70 @@ body {
     padding: 10px 24px 10px 24px;
     cursor: pointer;
 }
+
+.main-one-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 1332px;
+}
+
+.main-one-leftmain {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 664px;
+    height: 335px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-one-leftmain > h5 {
+    font-size: 14px;
+    color: #00856F;
+    margin-top: -15px;
+}
+
+.main-one-leftmain > h1 {
+    font-size: 52px;
+    width: 605px;
+    height: 136px;
+    line-height: 67.6px;
+    letter-spacing: 3px;
+}
+
+.main-one-leftmain > p {
+    font-size: 18px;
+    width: 585px;
+    height: 54px;
+}
+
+.main-one-leftmain > button {
+
+    width: 263px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 18.23px;
+    background-color: #00856F;
+    color: white;
+    border-radius: 40px;
+    padding: 16px 32px 16px 32px;
+}
+
+.main-one-leftmain > button >span {
+    width: 20px;
+    height: 20px;
+    line-height: 18.23px;
+}
+
+.main-one-photo {
+    width: 420px;
+    height: 549px;
+    margin-right: 10px;
+}
+
+
 /*  MAIN-22222222222222222222222222222222222 */
 .main-two {
     background-color: #F7F9F9;
