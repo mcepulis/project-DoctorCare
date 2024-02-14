@@ -233,7 +233,7 @@ body {
 }
 
 .main-two-header>p {
-    width: 497px;
+    width: 426px;
     height: 104px;
     margin: auto;
     font-size: 40px;
@@ -253,12 +253,20 @@ body {
 }
 
 .block {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     width: 347px;
     height: 207px;
     border: 2px solid #DCE9E2;
     border-radius: 6px;
     padding: 24px;
     background-color: white;
+}
+
+.block>i {
+    font-size: 24px;
+    color: #00856F;
 }
 
 .block>h1 {
@@ -271,18 +279,137 @@ body {
 /*  MAIN-3333333333333333333333333333333333333 */
 
 .main-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FFFAF1;
     width: 1366px;
     height: 734px;
 }
+
+.main-three-main {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+
+}
+
+.main-three-leftmain {
+    width: 480px;
+    height: 414px;
+    border-radius: 20px;
+}
+
+.main-three-leftmain>img {
+    width: 480px;
+    height: 414px;
+}
+
+.main-three-rightmain {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 573px;
+    height: 327px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-three-rightmain > h5 {
+    font-size: 14px;
+    color: #00856F;
+}
+
+.main-three-rightmain > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    width: 423px;
+    height: 104px;
+    letter-spacing: 2px;
+}
+
+.main-three-rightmain > p {
+    font-size: 16px;
+    width: 573px;
+    height: 168px;
+    font-weight: 400;
+}
+
+
+
 /*  MAIN-444444444444444444444444444444444 */
 .main-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FFFFFF;
     width: 1366px;
     height: 699px;
 }
 
+.main-four-main {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* gap: 80px; */
 
+}
+
+.main-four-leftmain {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 404px;
+    height: 304px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-four-leftmain > h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52.08px;
+    width: 404px;
+    height: 104px;
+    letter-spacing: 2px;
+}
+
+.main-four-leftmain > p {
+    font-size: 16px;
+    width: 186px;
+    height: 24px;
+    font-weight: 400;
+}
+
+.main-four-leftmain > button {
+    width: 263px;
+    height: 52px;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 18.23px;
+    background-color: #00856F;
+    color: white;
+    border-radius: 40px;
+    padding: 16px 32px 16px 32px;
+}
+
+.main-four-leftmain > button >span {
+    width: 20px;
+    height: 20px;
+    line-height: 18.23px;
+}
+
+
+.main-four-rightmain {
+    width: 575px;
+    height: 379px;
+    border-radius: 20px;
+}
+
+.main-four-rightmain>img {
+    width: 575px;
+    height: 379px;
+}
 /* F O O T E R */
 
 .footer {
