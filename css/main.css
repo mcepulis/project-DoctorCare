@@ -12,8 +12,8 @@ body {
 
 .container {
     background-color: rgb(213, 213, 211);
-    position: relative;
-    min-height: 100vh;
+    /* position: relative; */
+    min-height: 500vh;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -29,7 +29,7 @@ body {
     display: flex;
     width: 1366px;
     height: 72px;
-    /* position: fixed; -- REIKALINGAS VELIAU */
+    position: fixed;
     background-color: #00856F;
     justify-content:space-around;
     align-items: center;
@@ -189,7 +189,7 @@ body {
     line-height: 18.23px;
     background-color: #00856F;
     color: white;
-    border-radius: 40px;
+    border-radius: 30px;
     padding: 16px 32px 16px 32px;
 }
 
@@ -197,6 +197,7 @@ body {
     width: 20px;
     height: 20px;
     line-height: 18.23px;
+    padding-right: 40px;
 }
 
 .main-one-photo {
@@ -352,7 +353,7 @@ body {
     display: flex;
     align-items: center;
     justify-content:center;
-    /* gap: 80px; */
+    gap: 150px;
 
 }
 
@@ -376,7 +377,7 @@ body {
 
 .main-four-leftmain > p {
     font-size: 16px;
-    width: 186px;
+    width: 234px;
     height: 24px;
     font-weight: 400;
 }
@@ -397,6 +398,7 @@ body {
     width: 20px;
     height: 20px;
     line-height: 18.23px;
+    padding-right: 30px;
 }
 
 
@@ -421,7 +423,7 @@ body {
     background-color: #00856F;
     color: #F7F9F9;
     font-family: 'DM Sans', sans-serif;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     align-items: center;
     gap: 566px;
@@ -459,3 +461,82 @@ body {
 
 }
 
+/* BLOCK WITH NUMBERS*/
+
+.numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1120px;
+    height: 210px;
+    background-color: #FFFAF1;
+}
+
+.numbers-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 881px;
+    height: 90px;
+    font-family: 'DM Sans', sans-serif;
+}
+.vl1 {
+    border-left: 2px solid #00856F;
+    height: 80px;
+}
+
+.vl2 {
+    border-left: 2px solid #00856F;
+    height: 80px;
+}
+
+.left {
+    width: 167px;
+    height: 90px;
+    text-align: center;
+}
+
+.left>h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.left>p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.center {
+    width: 189px;
+    height: 90px;
+    text-align: center;
+}
+
+.center>h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.center>p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right {
+    width: 131px;
+    height: 95px;
+    text-align: center;
+}
+
+.right>h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.right>p {
+    font-size: 16px;
+    font-weight: 400;
+}
