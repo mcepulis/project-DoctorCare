@@ -470,6 +470,9 @@ body {
     width: 1120px;
     height: 210px;
     background-color: #FFFAF1;
+    position:relative;
+    left: 110px;
+    top: -70px;
 }
 
 .numbers-block {
